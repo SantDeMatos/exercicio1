@@ -21,9 +21,9 @@ h1 {
     border: solid 2px #212427;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .filho {
@@ -31,6 +31,7 @@ h1 {
     height: 80px;
     border-radius: 50px;
     text-align: center;
+    
 }
 
 .cor1 {
@@ -39,10 +40,16 @@ h1 {
 
 .cor2 {
     background-color: #63B1BC;
+    order: 2;
+    align-self: flex-end;
+    
+    
 }
 
 .cor3 {
     background-color: #EFB661;
+    align-self: center;
+
 }
 
 .instrucoes {
