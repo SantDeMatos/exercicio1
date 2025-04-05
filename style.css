@@ -19,11 +19,9 @@ h1 {
     margin: auto;
     background-color: antiquewhite;
     border: solid 2px #212427;
-
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
+    flex-direction: column 200px;
+
 }
 
 .filho {
@@ -32,23 +30,27 @@ h1 {
     border-radius: 50px;
     text-align: center;
     
+    
 }
 
 .cor1 {
     background-color: #ED145B;
+    align-self: flex-start;
+
 }
 
 .cor2 {
     background-color: #63B1BC;
     order: 2;
     align-self: flex-end;
+
     
     
 }
 
 .cor3 {
     background-color: #EFB661;
-    align-self: center;
+    align-self:center;
 
 }
 
